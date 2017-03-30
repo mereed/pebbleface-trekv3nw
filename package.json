@@ -1,0 +1,245 @@
+{
+    "author": "chops",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "trekv3nw",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health"
+        ],
+        "displayName": "Trekv3nw",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "current_background",
+            "current_language",
+            "format",
+            "bluetoothvibe_status",
+            "ampmsecs",
+            "current_status",
+            "invert",
+            "textcol_format",
+            "startday_status",
+            "steps_status"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/bg-dkblue",
+                    "name": "IMAGE_BACKGROUND11",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-yellows",
+                    "name": "IMAGE_BACKGROUND4",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-white",
+                    "name": "IMAGE_BACKGROUND5",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-reds",
+                    "name": "IMAGE_BACKGROUND7",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-purples",
+                    "name": "IMAGE_BACKGROUND3",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-ltblues",
+                    "name": "IMAGE_BACKGROUND2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-greys",
+                    "name": "IMAGE_BACKGROUND6",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-greens",
+                    "name": "IMAGE_BACKGROUND10",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-2colour",
+                    "name": "IMAGE_BACKGROUND8",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-default",
+                    "name": "IMAGE_BACKGROUND1",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bg-3colour",
+                    "name": "IMAGE_BACKGROUND9",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/runner.png",
+                    "name": "IMAGE_FOOTPRINT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/LCARS.ttf",
+                    "name": "FONT_LCARS_18",
+                    "targetPlatforms": null,
+                    "trackingAdjust": 1,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/LCARS.ttf",
+                    "name": "FONT_LCARSB_19",
+                    "targetPlatforms": null,
+                    "trackingAdjust": 1,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/LCARS.ttf",
+                    "name": "FONT_LCARS_19",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:. ]",
+                    "file": "fonts/LCARS.ttf",
+                    "name": "FONT_LCARS_68",
+                    "targetPlatforms": null,
+                    "trackingAdjust": 2,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/LCARS.ttf",
+                    "name": "FONT_LCARS_22",
+                    "targetPlatforms": null,
+                    "trackingAdjust": 1,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/LCARS.ttf",
+                    "name": "FONT_LCARS_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9: ]",
+                    "file": "fonts/LCARS.ttf",
+                    "name": "FONT_LCARS_64",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/menu_icon_trekv2.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/blockout24.png",
+                    "name": "IMAGE_BLOCK24",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/no_bluetooth.png",
+                    "name": "IMAGE_NO_BLUETOOTH",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_050_060.png",
+                    "name": "IMAGE_BATT_050_060",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_090_100.png",
+                    "name": "IMAGE_BATT_090_100",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_040_050.png",
+                    "name": "IMAGE_BATT_040_050",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_030_040.png",
+                    "name": "IMAGE_BATT_030_040",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_070_080.png",
+                    "name": "IMAGE_BATT_070_080",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_000_010.png",
+                    "name": "IMAGE_BATT_000_010",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/batt_charging.png",
+                    "name": "IMAGE_BATT_CHARGING",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_080_090.png",
+                    "name": "IMAGE_BATT_080_090",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_010_020.png",
+                    "name": "IMAGE_BATT_010_020",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_020_030.png",
+                    "name": "IMAGE_BATT_020_030",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BATT_060_070.png",
+                    "name": "IMAGE_BATT_060_070",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bluetooth-bw.png",
+                    "name": "IMAGE_BLUETOOTH",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite"
+        ],
+        "uuid": "b4f2b6d5-14d4-444d-8057-1edf82a651f9",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
